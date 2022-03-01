@@ -1,0 +1,18 @@
+package reuben;
+
+public class findingthefirstnonrepeatedcharacter {
+
+
+public static void main(String[] args) {
+    
+
+        String s = " Tech sideways ";
+        for(Character ch:s.toCharArray()) {
+            if(s.indexOf(ch) == s.lastIndexOf(ch)) {
+                System.out.println("First non repeat character = " + ch);
+                break;
+          }
+         }
+        }
+       }
+   
